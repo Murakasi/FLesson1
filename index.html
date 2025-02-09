@@ -3,17 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
     <title>Littel Lemon</title>
   </head>
   <body>
-    <h1>Littel Limon menu</h1>
-    <h3>Falafel</h3>
-    <img src="./IMGS/falafel.jpeg" width="200" height="135" alt="falafel" />
-    <p>Checkpeaces, pite, hearbs</p>
-    <h3>Pasta salad</h3>
-    <img src="./IMGS/pasta_salad.jpeg" width="200" height="135" alt="" />
-    <p>Letuce, pasta, wegetable and mozarrela</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center">
+            <h1>Littel Lemon menu</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div class="card raund">
+            <img src="./IMGS/pasta_salad.png" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-titel">Pasta salad</h3>
+              <p class="card-text">Letuce, pasta, mozarrela</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./IMGS/falafel.png" class="card-img-top" alt="falafel" />
+            <div class="card-body">
+              <h3 class="card-title">Falafel</h3>
+              <p class="card-text">Checkpeaces, pite, hearbs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"></div>
+    </div>
+
+   
     <a href="about.html">About as</a>
     <table>
       <tr>
@@ -29,5 +61,10 @@
         <td>$7.50</td>
       </tr>
     </table>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
