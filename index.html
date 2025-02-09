@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="./style.css" />
     <title>Littel Lemon</title>
+   
   </head>
   <body>
     <div class="container">
@@ -20,11 +21,14 @@
           <div class="text-center">
             <h1>Littel Lemon menu</h1>
           </div>
+          <div class="text-center">
+            <p class="alert alert-warning" role="alert">We are closed on New Year's Eve</p>
+          </div>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-lg-4">
-          <div class="card raund">
+          <div class="card">
             <img src="./IMGS/pasta_salad.png" class="card-img-top" />
             <div class="card-body">
               <h3 class="card-titel">Pasta salad</h3>
@@ -42,25 +46,32 @@
           </div>
         </div>
       </div>
-      <div class="row"></div>
+      <div class="col-12 text-center">
+        <button type="button" class="btn btn-primary">Order Online</button>
+      </div>
+      <div class="row price">
+        <div class="col-4">
+          <table class="table table-striped ">
+            <tr>
+              <th>Dish</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Falafel</td>
+              <td>$10.00</td>
+            </tr>
+            <tr>
+              <td>Pasta salad</td>
+              <td>$7.50</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
 
    
     <a href="about.html">About as</a>
-    <table>
-      <tr>
-        <th>Dish</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <td>Falafel</td>
-        <td>$10.00</td>
-      </tr>
-      <tr>
-        <td>Pasta salad</td>
-        <td>$7.50</td>
-      </tr>
-    </table>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
